@@ -11,4 +11,6 @@ I'm writing this up after I did the migration.
 
 2. Run `docker-compose run db bash dump-heroku-db.sh`.
 
+   _Note: Run before.sql on target DB._
+
 3. Run `docker-compose run db bash load-into-rds-db.sh`.
